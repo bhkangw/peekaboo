@@ -1,0 +1,35 @@
+/* Blur only the text inside the button */
+.blurred {
+	/* Apply subtle blur to the text */
+	filter: blur(6px);
+	/* Hide original text while keeping blur */
+	color: transparent;
+	/* Subtle black tint to blend with dark mode */
+	background: rgba(66, 66, 66, 0.3);
+	/* Smooth transition */
+	transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect to unblur text */
+.blurred:hover {
+	/* Remove blur on hover */
+	filter: none;
+	/* Restore text color */
+	color: inherit;
+	/* Remove tint and default hover behavior */
+	background: none !important;
+	/* Remove any shadow effects */
+	box-shadow: none !important;
+	/* Disable hover transition for clean effect */
+	transition: none;
+}
+
+/* Remove default hover behavior for buttons */
+.blurred:hover,
+.blurred:focus {
+	background: none !important;
+	box-shadow: none !important;
+	color: inherit;
+	/* Remove focus outline */
+	outline: none;
+}

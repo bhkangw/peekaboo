@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #1f1f1f;
+	color: #fff;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Popup container styling */
+.popup-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+/* Header styles */
+.main-header {
+	font-family: Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #00aaff;
+}
+
+.sub-header {
+	font-size: 1rem;
+	font-weight: normal;
+	color: #ddd;
+}
+
+/* Description text */
+.description {
+	font-size: 0.9rem;
+	color: #ccc;
+}
+
+/* Toggle row layout */
+.toggle-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	justify-content: center;
+}
+
+/* Toggle label */
+.toggle-label {
+	font-size: 1rem;
+	color: #ddd;
+}
+
+/* Toggle switch container */
+.toggle-container {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+	display: none;
+}
+
+/* Slider styling */
+.slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #555;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.slider::before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border-radius: 50%;
+	transition: transform 0.3s ease;
+}
+
+/* Checked (enabled) state */
+input[type="checkbox"]:checked+.slider {
+	background-color: #00aaff;
+}
+
+input[type="checkbox"]:checked+.slider::before {
+	transform: translateX(20px);
+}
+
+/* Footer link */
+.footer {
+	font-size: 0.8rem;
+	margin-top: 10px;
+	color: #999;
+}
+
+.footer a {
+	color: #00aaff;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
