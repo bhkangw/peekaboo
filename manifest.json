@@ -3,7 +3,7 @@
   "name": "Peekaboo: ChatGPT Privacy Enhancer",
   "version": "1.0",
   "description": "Blur ChatGPT history pane items by default for privacy.",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab"],
   "host_permissions": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
   "action": {
     "default_popup": "popup.html",
