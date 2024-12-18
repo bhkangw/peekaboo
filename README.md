@@ -1,6 +1,3 @@
-![blurred](img1.jpg)
-![unblurred](img2.jpg)
-
 # Peekaboo: ChatGPT Privacy Enhancer 👀🔒
 
 👋 Sup welcome to **Peekaboo**, a tiny Chrome extension that keeps your ChatGPT history private in the simplest, sleekest way possible.
@@ -16,6 +13,9 @@ So Peekaboo was born within the hour - it's a super simple, minimal solution to 
 Peekaboo automatically **blurs your ChatGPT history items**, keeping your chat topics tastefully hidden.
 
 Hover over any blurred conversation to reveal it when you need it.
+
+![blurred](img1.jpg)
+![unblurred](img2.jpg)
 
 ## How to Get Started 🚀
 
