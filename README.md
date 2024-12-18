@@ -40,7 +40,7 @@ Yes, there’s a scary popup that says the extension can read and change your da
 
 All processing happens locally on your device, and no data is collected, stored, or shared.
 
-![popup](3.png)
+![popup](img3.jpg)
 
 ## FAQ 🙋
 
