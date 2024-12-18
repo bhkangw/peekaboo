@@ -36,9 +36,9 @@ Hover over any blurred conversation to reveal it when you need it.
 
 This extension **doesn't collect, store, or share any of your data**.
 
-Yes, there’s a scary popup that says the extension can read and change your data. This just means it can access the page content to blur the html elements (check the code!).
+Yes, there’s a scary popup that says the extension can read and change your data. That’s the default warning for extensions that interact with a webpage. All it does is access the page content to blur html elements (check the code!).
 
-All processing happens locally on your device, and no data is collected, stored, or shared.
+All processing happens locally on your device and no data is transmitted anywhere, collected, stored, or shared.
 
 ![popup](img3.jpg)
 
