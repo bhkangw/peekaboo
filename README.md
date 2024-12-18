@@ -58,6 +58,6 @@ A: Just ChatGPT for now, but feel free to DM me with any requests.
 
 ## Feedback or Questions? 💬
 
-Hit me up on Twitter: https://x.com/brianautomates
+Hit me up on Twitter: https://x.com/brianautomates. If you like the extension, leave a [review](https://chromewebstore.google.com/detail/Peekaboo:%20ChatGPT%20Privacy%20Enhancer/mloaapjbhaopofjpcihoacjanjdejmcg/reviews?authuser=1)!
 
 🫰
